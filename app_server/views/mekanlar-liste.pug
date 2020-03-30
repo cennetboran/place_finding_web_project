@@ -1,0 +1,134 @@
+extends layout
+block content
+  //Başlık bölümündeki bilgileri ayarlaya
+  #banner.page-header
+    //satır oluştur
+    .row
+      .col-lg-6
+        h1
+          |Mekan32
+          small &nbsp;Isparta civarındaki mekanları keşfedin!
+  .row
+    //mobil uyumlu listeleme
+    .col-xs-12.col-sm-12
+      //Liste grubu oluştur
+      .row.list-group
+       //Listeye öğe ekleme. Birden fazla eleman ekliycekseniz
+       //aşağıdaki kodu kopyalayın ve yapıştırın
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') Starbucks
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 10km
+           p.address Centrum Garden AVM
+           p
+              span.label.label-warning Dünya Kahveleri
+              | &nbsp;
+              span.label.label-warning Kekler
+              | &nbsp;
+              span.label.label-warning Pastalar
+              | &nbsp;           
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') Gloria Jeans
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 10km
+           p.address Iyas AVM
+           p
+              span.label.label-warning Dünya Kahveleri
+              | &nbsp;
+              span.label.label-warning Kekler
+              | &nbsp;
+              span.label.label-warning Pastalar
+              | &nbsp;  
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') D&R
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 5km
+           p.address Iyas AVM
+           p
+              span.label.label-warning Dünya Klasikleri
+              | &nbsp;
+              span.label.label-warning Roman
+              | &nbsp;
+              span.label.label-warning Dergi
+              | &nbsp;  	
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') Gramofon Kafe
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 5km
+           p.address Carsi
+           p
+              span.label.label-warning Dünya Kahveleri
+              | &nbsp;
+              span.label.label-warning Karaoke
+              | &nbsp;
+              span.label.label-warning Pastalar
+              | &nbsp;  
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') KOTON
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 5km
+           p.address Iyas AVM
+           p
+              span.label.label-warning Bayan Giyim
+              | &nbsp;
+              span.label.label-warning Erkek Giyim
+              | &nbsp;
+              span.label.label-warning Çocuk Giyim
+              | &nbsp;  
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') Mango
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 5km
+           p.address Iyas AVM
+           p
+              span.label.label-warning Aksesuar
+              | &nbsp;
+              span.label.label-warning Mont/Kaşe
+              | &nbsp;
+              span.label.label-warning Ayakkabı
+              | &nbsp;  						  
+    .col-xs-12.col-sm-4
+
+    
